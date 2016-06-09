@@ -1,0 +1,15 @@
+                                    Repo                Path          Unixtime                  MIME.type    
+ https://github.com/naver/pinpoint     : 4744   .gitignore :   49   Min.   :9.947e+08   b'text/x-java':15002  
+ https://github.com/google/j2objc      : 3203   README.md  :   45   1st Qu.:1.411e+09   b'text/plain' : 9108  
+ https://github.com/stanfordnlp/CoreNLP: 2462   .travis.yml:   38   Median :1.441e+09   b'text/html'  : 1822  
+ https://github.com/alibaba/fastjson   : 1940   pom.xml    :   33   Mean   :1.427e+09   b'text/x-c'   : 1722  
+ https://github.com/google/guava       : 1703   LICENSE.txt:   22   3rd Qu.:1.457e+09   b'text/x-c++' : 1356  
+ https://github.com/mybatis/mybatis-3  : 1539   LICENSE    :   15   Max.   :1.465e+09   b'text/xml'   : 1214  
+ (Other)                               :16786   (Other)    :32175                       (Other)       : 2153  
+      Size              Depth             Time                    
+ Min.   :       0   Min.   : 0.000   Min.   :2001-07-09 22:39:54  
+ 1st Qu.:    1064   1st Qu.: 5.000   1st Qu.:2014-09-23 14:46:51  
+ Median :    2257   Median : 7.000   Median :2015-08-28 15:16:39  
+ Mean   :   29210   Mean   : 6.818   Mean   :2015-03-16 13:36:50  
+ 3rd Qu.:    5969   3rd Qu.: 9.000   3rd Qu.:2016-03-03 14:43:34  
+ Max.   :72596952   Max.   :19.000   Max.   :2016-06-08 23:36:06  

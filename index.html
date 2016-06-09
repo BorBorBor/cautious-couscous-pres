@@ -66,7 +66,7 @@
                     <h2>But they need to be believable…</h2>
                     <ul>
                         <li>Attackers can check file metadata</li>
-                        <li>Is the metadata consistent with normal file usage?</li>
+                        <li class="fragment">Is the metadata consistent with normal file usage?</li>
                     </ul>
                 </section>
 
@@ -89,7 +89,7 @@
 
                         <ul>
                             <li>Proactive Detection of Security Incidents [enisa, 2012] (181 pages!) </li>
-                            <li>Recent Advances and Future Trends in Honeypot Research [Bringer et al., 2012] </li>
+                            <li class="fragment">Recent Advances and Future Trends in Honeypot Research [Bringer et al., 2012] </li>
                         </ul>
 
                     <aside class="notes">
@@ -106,15 +106,15 @@
                         <ul>
                             <li>Defeating Honeypots [Holz et al., 2005]
 <!-- http://old.honeynet.org/papers/individual/DefeatingHPs-IAW05.pdf --></li>
-                            <li>How do you know when you are inside one? [Innes, 2006]
+                            <li class="fragment">How do you know when you are inside one? [Innes, 2006]
 <!-- http://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1027&context=adf --></li>
                         </ul>
-
+						<p class="fragment">
 						But these are actually quite old. </br>
 
 						We have thus come up with a new solution.
 
-                  </p>
+                 		 </p>
                     <aside class="notes">
                         Almost no literature. So, we have to come up with our own approach here.
                     </aside>
@@ -124,7 +124,7 @@
                     <h2>Approach</h2>
                     <ul>
                         <li>Analyse existing file metadata and generate a definition of believable file usage from there.</li>
-                        <li>Apply this knowledge to manipulate files.</li>
+                        <li class="fragment">Apply this knowledge to manipulate files.</li>
                     </ul>
                 </section>
 
@@ -134,8 +134,8 @@
                         Trending GitHub repositories
                     </p>
                     <ul>
-                        <li>50 repos, written in Java</li>
-                        <li>Sizes lie between TODO and TODO</li>
+                        <li class="fragment">50 repos, written in Java</li>
+                        <li class="fragment">Sizes lie between TODO and TODO</li>
                     </ul>
                 </section>
 
@@ -163,16 +163,25 @@
 
                 <section>
                     <h2>Results</h2>
-                    <p>
-                        TODO
-                    </p>
+                        <img src="TvsD.png"></img>
                 </section>
+
+                <section>
+                    <h2>Results</h2>
+                    <ul>
+                        <li>The update times seem to follow a reversed gamma distribution </li>
+                        <li class="fragment">There is a (huge) correlation between folder depth and update time </li>
+                        <li class="fragment">Special files have other properties</li>
+
+                    </ul>
+                </section>
+
 
                 <section>
                     <h2>Discussion / Evaluation</h2>
                     <ul>
                         <li>Technique is hard to quantify objectively</li>
-                        <li>Other file sources might be needed</li>
+                        <li class="fragment">Other file sources might be needed</li>
                     </ul>
                 </section>
 
